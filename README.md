@@ -2,8 +2,10 @@
 ## Desarrollo de Software
 ### API Web
 
-## Tarea
-Desarrollar una API Web basada en controladores en .NET, con las siguientes características:\
+## Tareas
+Bifurcar (fork) el repositorio.
+
+Desarrollar una API Web basada en controladores en .NET, con las siguientes características:
 
 1. Nombre de la solución: __Dsw2025Ej14__
 2. Nombre del proyecto: __Dsw2025Ej14.Api__
@@ -15,7 +17,7 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 	* CurrentUnitPrice (decimal)
 	* IsActive (bool)
 6. La capa de persistencia cuenta con la clase __PersistenciaEnMemoria__ que tiene, entre otros necesarios, el método __LoadProducts()__ 
-   que obtiene los productos de un JSON (el código del método y el JSON son proporcionados) y los guarda en una lista.
+   que obtiene los productos de un JSON (proporcionado) y los guarda en una lista.
 7. Agregar el controlador ProductsController con dos endpoints:
 	- __Primer endpoint__:
 		* Método: `GET`
@@ -31,9 +33,9 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 		* Respuesta de error: 404 Not Found si no se encuentra el producto
 8. Agregar sondeo de estado básico en la ruta `/health-check`
 
-__Aplicar principios y patrones estudiados__
+__Aplicar principios y patrones estudiados.__
 
-__Agregar al README lista de estudiantes que participaron y la comisión__
+__Agregar al README lista de estudiantes que participaron y la comisión. Al finalizar la clase se deben subir los cambios al repositorio bifurcado. No se pueden realizar commits una vez subido.__
 
 __Código de ejemplo para importar los productos__ \
 `var json = await File.ReadAllTextAsync("products.json");` \
