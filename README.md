@@ -34,3 +34,7 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 __Aplicar principios y patrones estudiados__
 
 __Agregar al README lista de estudiantes que participaron y la comisión__
+
+__Código de ejemplo para importar los productos__
+`var json = await File.ReadAllTextAsync("products.json");`
+`var products = JsonSerializer.Deserialize<List<Product>>(json);`
