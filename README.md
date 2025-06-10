@@ -4,7 +4,7 @@
 
 ##Tarea
 Desarrollar una API Web basada en controladores en .NET, con las siguientes características:\
-\
+
 1. Nombre de la solución: __Dsw2025Ej14__
 2. Nombre del proyecto: __Dsw2025Ej14.Api__
 3. Capa de dominio (__Domain__) en carpeta dentro del proyecto Api
@@ -14,7 +14,7 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 	* Name (string)
 	* CurrentUnitPrice (decimal)
 	* IsActive (bool)
-6. La capa de persistencia cuenta con la clase `PersistenciaEnMemoria` que tiene, entre otros necesarios, el método __LoadProducts()__ 
+6. La capa de persistencia cuenta con la clase __PersistenciaEnMemoria__ que tiene, entre otros necesarios, el método __LoadProducts()__ 
    que obtiene los productos de un JSON (el código del método y el JSON son proporcionados) y los guarda en una lista.
 7. Agregar el controlador ProductsController con dos endpoints:
 	- __Primer endpoint__:
@@ -32,5 +32,5 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 8. Agregar sondeo de estado básico en la ruta `/health-check`
 
 __Aplicar principios y patrones estudiados__\
-\
+
 __Agregar al README lista de estudiantes que participaron y la comisión__
