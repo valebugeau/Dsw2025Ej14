@@ -2,7 +2,7 @@
 ## Desarrollo de Software
 ### API Web
 
-##Tarea
+## Tarea
 Desarrollar una API Web basada en controladores en .NET, con las siguientes características:\
 
 1. Nombre de la solución: __Dsw2025Ej14__
@@ -31,6 +31,6 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 		* Respuesta de error: 404 Not Found si no se encuentra el producto
 8. Agregar sondeo de estado básico en la ruta `/health-check`
 
-__Aplicar principios y patrones estudiados__\
+__Aplicar principios y patrones estudiados__
 
 __Agregar al README lista de estudiantes que participaron y la comisión__
