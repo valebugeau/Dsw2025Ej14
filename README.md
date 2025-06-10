@@ -16,7 +16,7 @@ Desarrollar una API Web basada en controladores en .NET, con las siguientes cara
 	* Name (string)
 	* CurrentUnitPrice (decimal)
 	* IsActive (bool)
-6. La capa de persistencia cuenta con la clase __PersistenciaEnMemoria__ que tiene, entre otros necesarios, el método __LoadProducts()__ 
+6. La capa de persistencia cuenta con la clase __PersistenciaEnMemoria__ (registrar como Singleton) que tiene, entre otros necesarios, el método __LoadProducts()__ 
    que obtiene los productos de un JSON (proporcionado) y los guarda en una lista.
 7. Agregar el controlador ProductsController con dos endpoints:
 	- __Primer endpoint__:
